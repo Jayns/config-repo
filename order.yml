@@ -9,10 +9,6 @@ spring:
   jpa:
     show-sql: true
 
-#负载均衡策略 默认是轮询 RoundRobinRule
-PRODUCT:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 girl:
   name: Jayns1
   age: 22
