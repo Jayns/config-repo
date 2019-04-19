@@ -15,3 +15,6 @@ PRODUCT:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
   test
+girl:
+  name: Jayns
+  age: 18
