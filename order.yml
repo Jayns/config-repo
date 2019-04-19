@@ -13,8 +13,6 @@ spring:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-env:
-  test
 girl:
   name: Jayns1
   age: 22
