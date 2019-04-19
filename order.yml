@@ -9,6 +9,11 @@ spring:
   jpa:
     show-sql: true
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
 girl:
-  name: Jayns1
+  name: Jayns
   age: 22
